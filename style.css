@@ -1,38 +1,49 @@
-#pink {
-    background-color:#F50057;
-    border-color:#F50057;
+/* Styles for the main heading */
+h1 {
+    margin-top: 130px;
+    font-size: 34px;
+    text-align: center;
   }
-  #blue {
-    background-color:#2979FF;
-    border-color:#2979FF;
+  
+  /* Styles for the drawing area */
+  #drawingArea {
+    width: 960px;
+    margin: 0 auto;
   }
-  #yellow {
-    background-color:#FFD600;
-    border-color:#FFD600;
+  
+  /* Styles for the controls area */
+  #controls {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5px;
   }
+  
+  /* Styles for white-colored elements */
+  .white {
+    color: white;
+  }
+  
+  /* Styles for the black button */
   #black {
-    background-color:#000000;
-    border-color:#000000;
-  }
-  i.white {
-    color:white;
+    background-color: #000000;
+    border-color: #000000;
   }
   
-  div#controls {
-    width:960px;
-    margin:0 auto;
-    text-align:center;
-    margin-top:20px;
+  /* Styles for the pink button */
+  #pink {
+    background-color: #F50057;
+    border-color: #F50057;
   }
   
-  div#drawingArea {
-    width:960px;
-    margin:0 auto;
+  /* Styles for the blue button */
+  #blue {
+    background-color: #2979FF;
+    border-color: #2979FF;
   }
   
-  h1 {
-    font-size:34px;
-    text-align:center;
-    margin-top:60px;
+  /* Styles for the yellow button */
+  #yellow {
+    background-color: #FFD600;
+    /* border-color:#FFD600; */
   }
-  
